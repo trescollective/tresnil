@@ -8,101 +8,108 @@
     <style>
         body {
             margin: 0;
-            font-family: 'Georgia', serif;
+            font-family: 'Arial', sans-serif;
             background-color: #000;
             color: #fff;
+            line-height: 1.6;
         }
 
         header {
-            background-color: #111;
-            padding: 20px;
-            text-align: center;
-            border-bottom: 2px solid #bbb;
+            background-color: #1a1a1a;
+            padding: 20px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
 
         header h1 {
-            color: #bbb;
+            color: #fff;
+            font-size: 1.8rem;
             margin: 0;
-            font-size: 2.5rem;
         }
 
         nav {
-            margin-top: 10px;
+            display: flex;
+            gap: 20px;
         }
 
         nav a {
-            color: #fff;
+            color: #bbb;
             text-decoration: none;
-            margin: 0 15px;
-            font-size: 1.2rem;
-            transition: color 0.3s ease;
+            font-size: 1rem;
+            transition: color 0.3s;
         }
 
         nav a:hover {
-            color: #bbb;
-        }
-
-        .hero {
-            text-align: center;
-            padding: 50px 20px;
-            background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
             color: #fff;
         }
 
+        .hero {
+            background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            padding: 0 20px;
+        }
+
         .hero h2 {
-            font-size: 2rem;
-            color: #bbb;
+            font-size: 2.5rem;
+            margin: 0 0 20px;
         }
 
         .hero p {
             font-size: 1.2rem;
-            margin: 20px 0;
+            margin-bottom: 30px;
         }
 
-        .button {
-            display: inline-block;
+        .hero .button {
+            background-color: #444;
+            color: #fff;
             padding: 10px 20px;
-            color: #000;
-            background-color: #bbb;
-            text-decoration: none;
-            font-size: 1.1rem;
+            border: none;
             border-radius: 5px;
-            transition: background-color 0.3s ease;
+            font-size: 1rem;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s;
         }
 
-        .button:hover {
-            background-color: #999;
+        .hero .button:hover {
+            background-color: #666;
         }
 
         section {
-            padding: 50px 20px;
+            padding: 50px 30px;
             text-align: center;
         }
 
-        .services h2,
-        .contact h2 {
+        section h2 {
             font-size: 2rem;
-            color: #bbb;
             margin-bottom: 20px;
+            color: #ccc;
         }
 
-        .services p,
-        .contact p {
-            font-size: 1.2rem;
-            line-height: 1.6;
+        section p {
+            font-size: 1rem;
+            color: #aaa;
+            max-width: 800px;
+            margin: 0 auto;
         }
 
         footer {
-            background-color: #111;
-            color: #fff;
+            background-color: #1a1a1a;
+            color: #bbb;
             text-align: center;
             padding: 20px;
-            border-top: 2px solid #bbb;
         }
 
         footer p {
             margin: 5px 0;
-            font-size: 1rem;
+            font-size: 0.9rem;
         }
 
         footer a {
@@ -111,21 +118,21 @@
         }
 
         footer a:hover {
-            text-decoration: underline;
+            color: #fff;
         }
 
         @media (max-width: 768px) {
-            nav a {
+            .hero h2 {
+                font-size: 2rem;
+            }
+
+            .hero p {
                 font-size: 1rem;
             }
 
-            .hero h2 {
-                font-size: 1.5rem;
-            }
-
-            .services h2,
-            .contact h2 {
-                font-size: 1.5rem;
+            nav {
+                flex-direction: column;
+                gap: 10px;
             }
         }
     </style>
@@ -142,24 +149,24 @@
     </header>
 
     <div class="hero">
-        <h2>Bridging the Gap Between D3 Athletes and Communities</h2>
-        <p>A first-of-its-kind NIL agency focused on connecting Division III athletes, local businesses, and their communities.</p>
-        <a href="#services" class="button">Learn More</a>
+        <h2>Empowering D3 Athletes and Communities</h2>
+        <p>A pioneering NIL agency creating connections between Division III athletes, local businesses, and the community.</p>
+        <a href="#services" class="button">Discover More</a>
     </div>
 
-    <section id="services" class="services">
-        <h2>Our Services</h2>
-        <p>We specialize in empowering Division III athletes by creating meaningful NIL opportunities through sponsorships, brand collaborations, and community-driven initiatives. Tres Collective helps D3 athletes and local businesses grow together, much like the microfinance model, by focusing on underrepresented markets with significant growth potential.</p>
+    <section id="services">
+        <h2>What We Do</h2>
+        <p>Our mission is to bridge the gap between Division III athletes and local businesses through innovative NIL opportunities, focusing on community impact and growth potential. We empower underrepresented markets with a model inspired by microfinance principles.</p>
     </section>
 
-    <section id="about" class="about">
+    <section id="about">
         <h2>About Us</h2>
-        <p>Division III athletics is an untapped growth market, offering unique opportunities for local businesses to connect with passionate, community-driven athletes. Tres Collective is dedicated to elevating D3 athletes by fostering authentic partnerships that benefit both the athletes and the businesses that support them.</p>
+        <p>Tres Collective is redefining how Division III athletics engages with local communities. By tapping into the untapped potential of D3 sports, we create mutually beneficial partnerships that celebrate the spirit of collaboration and growth.</p>
     </section>
 
-    <section id="contact" class="contact">
-        <h2>Contact Us</h2>
-        <p>Interested in learning more or starting a partnership? Reach out to us today!</p>
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        <p>Interested in collaborating or learning more? We’d love to hear from you.</p>
         <p>Email: <a href="mailto:info@trescollective.com">info@trescollective.com</a></p>
         <p>Phone: (555) 123-4567</p>
     </section>
@@ -171,3 +178,4 @@
 </body>
 
 </html>
+
