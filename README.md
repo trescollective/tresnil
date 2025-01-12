@@ -149,8 +149,8 @@
     </header>
 
     <div class="hero">
-        <h2>Empowering D3 Athletes and Communities</h2>
-        <p>A pioneering NIL agency creating connections between Division III athletes, local businesses, and the community.</p>
+        <h2>Bringing NIL to Division III Athletics</h2>
+        <p>A boutique NIL agency focused on bridging Division III athletes, local businesses, and the community.</p>
         <a href="#services" class="button">Discover More</a>
     </div>
 
