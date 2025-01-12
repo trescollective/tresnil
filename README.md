@@ -8,7 +8,7 @@
     <style>
         body {
             margin: 0;
-            font-family: 'Arial', sans-serif;
+            font-family: 'Georgia', serif;
             background-color: #000;
             color: #fff;
         }
@@ -17,11 +17,11 @@
             background-color: #111;
             padding: 20px;
             text-align: center;
-            border-bottom: 2px solid #ffd700;
+            border-bottom: 2px solid #bbb;
         }
 
         header h1 {
-            color: #ffd700;
+            color: #bbb;
             margin: 0;
             font-size: 2.5rem;
         }
@@ -39,7 +39,7 @@
         }
 
         nav a:hover {
-            color: #ffd700;
+            color: #bbb;
         }
 
         .hero {
@@ -51,7 +51,7 @@
 
         .hero h2 {
             font-size: 2rem;
-            color: #ffd700;
+            color: #bbb;
         }
 
         .hero p {
@@ -63,7 +63,7 @@
             display: inline-block;
             padding: 10px 20px;
             color: #000;
-            background-color: #ffd700;
+            background-color: #bbb;
             text-decoration: none;
             font-size: 1.1rem;
             border-radius: 5px;
@@ -71,7 +71,7 @@
         }
 
         .button:hover {
-            background-color: #e6be00;
+            background-color: #999;
         }
 
         section {
@@ -82,7 +82,7 @@
         .services h2,
         .contact h2 {
             font-size: 2rem;
-            color: #ffd700;
+            color: #bbb;
             margin-bottom: 20px;
         }
 
@@ -97,7 +97,7 @@
             color: #fff;
             text-align: center;
             padding: 20px;
-            border-top: 2px solid #ffd700;
+            border-top: 2px solid #bbb;
         }
 
         footer p {
@@ -106,7 +106,7 @@
         }
 
         footer a {
-            color: #ffd700;
+            color: #bbb;
             text-decoration: none;
         }
 
@@ -142,24 +142,24 @@
     </header>
 
     <div class="hero">
-        <h2>Elevating Division III Athletics</h2>
-        <p>Connecting athletes, schools, and local businesses to create impactful partnerships.</p>
+        <h2>Bridging the Gap Between D3 Athletes and Communities</h2>
+        <p>A first-of-its-kind NIL agency focused on connecting Division III athletes, local businesses, and their communities.</p>
         <a href="#services" class="button">Learn More</a>
     </div>
 
     <section id="services" class="services">
         <h2>Our Services</h2>
-        <p>We specialize in connecting Division III athletes and schools with local businesses through sponsorship deals, event partnerships, and brand collaborations. Tres Collective helps athletes and communities thrive together.</p>
+        <p>We specialize in empowering Division III athletes by creating meaningful NIL opportunities through sponsorships, brand collaborations, and community-driven initiatives. Tres Collective helps D3 athletes and local businesses grow together, much like the microfinance model, by focusing on underrepresented markets with significant growth potential.</p>
     </section>
 
     <section id="about" class="about">
         <h2>About Us</h2>
-        <p>Tres Collective is dedicated to showcasing the stories of Division III athletes and creating meaningful opportunities for local businesses to support their growth. By focusing on authenticity and community-driven partnerships, we bring value to athletes and sponsors alike.</p>
+        <p>Division III athletics is an untapped growth market, offering unique opportunities for local businesses to connect with passionate, community-driven athletes. Tres Collective is dedicated to elevating D3 athletes by fostering authentic partnerships that benefit both the athletes and the businesses that support them.</p>
     </section>
 
     <section id="contact" class="contact">
         <h2>Contact Us</h2>
-        <p>Ready to partner with us or learn more? Reach out today!</p>
+        <p>Interested in learning more or starting a partnership? Reach out to us today!</p>
         <p>Email: <a href="mailto:info@trescollective.com">info@trescollective.com</a></p>
         <p>Phone: (555) 123-4567</p>
     </section>
