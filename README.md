@@ -1,4 +1,11 @@
+Let's try using a different image source. Here are some free header images you can use:
 
+1. [Pixabay Header Images](https://pixabay.com/images/search/header/)
+2. [Freepik Website Header Images](https://www.freepik.com/free-photos-vectors/website-header)
+
+You can download an image from one of these sources and replace the placeholder URL in the code. Here's the updated HTML with a new image URL from Pixabay:
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,7 +24,7 @@
         }
 
         header {
-            background: url('[https://via.placeholder.com/1920x400](https://www.insidehook.com/wp-content/uploads/2019/02/GettyImages-476138756.jpg?fit=1024%2C683)') no-repeat center center/cover;
+            background: url('https://cdn.pixabay.com/photo/2016/11/29/09/32/architecture-1868667_1280.jpg') no-repeat center center/cover;
             padding: 20px 30px;
             display: flex;
             justify-content: space-between;
@@ -50,7 +57,7 @@
         }
 
         .hero {
-            background: url('[https://via.placeholder.com/1920x600](https://www.insidehook.com/wp-content/uploads/2019/02/GettyImages-476138756.jpg?fit=1024%2C683)') no-repeat center center/cover;
+            background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
             height: 80vh;
             display: flex;
             flex-direction: column;
@@ -219,3 +226,6 @@
 </body>
 
 </html>
+```
+
+Try using this new image URL. If it still doesn't work, please let me know, and we can troubleshoot further!
