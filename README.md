@@ -50,7 +50,7 @@
         }
 
         .hero {
-            background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+            background: url('[https://via.placeholder.com/1920x600](https://www.insidehook.com/wp-content/uploads/2019/02/GettyImages-476138756.jpg?fit=1024%2C683)') no-repeat center center/cover;
             height: 80vh;
             display: flex;
             flex-direction: column;
