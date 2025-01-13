@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,6 +13,7 @@
             background: linear-gradient(135deg, #0a0a0a, #111111);
             color: #fff;
             line-height: 1.6;
+            scroll-behavior: smooth;
         }
 
         header {
@@ -170,6 +172,8 @@
         <h1>Tres Collective</h1>
         <nav>
             <a href="#services">Services</a>
+            <a href="#spotlight">Student-Athlete Spotlight</a>
+            <a href="#partners">Partners</a>
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
         </nav>
@@ -184,6 +188,16 @@
     <section id="services">
         <h2>What We Do</h2>
         <p>Our mission is to bridge the gap between Division III athletes and local businesses through innovative NIL opportunities, focusing on community impact and growth potential. We empower underrepresented markets with a model inspired by microfinance principles.</p>
+    </section>
+
+    <section id="spotlight">
+        <h2>Student-Athlete Spotlight</h2>
+        <p>Highlighting the achievements and stories of Division III student-athletes who are making a difference on and off the field.</p>
+    </section>
+
+    <section id="partners">
+        <h2>Our Partners</h2>
+        <p>We collaborate with local businesses and organizations to create meaningful NIL opportunities for Division III athletes.</p>
     </section>
 
     <section id="about">
