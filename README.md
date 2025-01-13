@@ -9,23 +9,25 @@
         body {
             margin: 0;
             font-family: 'Arial', sans-serif;
-            background-color: #000;
+            background: linear-gradient(135deg, #0a0a0a, #111111);
             color: #fff;
             line-height: 1.6;
         }
 
         header {
-            background-color: #1a1a1a;
+            background: url('https://via.placeholder.com/1920x400') no-repeat center center/cover;
             padding: 20px 30px;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
         }
 
         header h1 {
             color: #fff;
-            font-size: 1.8rem;
+            font-size: 2.4rem;
             margin: 0;
+            animation: fadeIn 2s ease-in-out;
         }
 
         nav {
@@ -37,11 +39,12 @@
             color: #bbb;
             text-decoration: none;
             font-size: 1rem;
-            transition: color 0.3s;
+            transition: color 0.3s, transform 0.3s;
         }
 
         nav a:hover {
             color: #fff;
+            transform: scale(1.1);
         }
 
         .hero {
@@ -54,15 +57,16 @@
             text-align: center;
             color: #fff;
             padding: 0 20px;
+            animation: fadeInUp 2s ease-in-out;
         }
 
         .hero h2 {
-            font-size: 2.5rem;
+            font-size: 3rem;
             margin: 0 0 20px;
         }
 
         .hero p {
-            font-size: 1.2rem;
+            font-size: 1.4rem;
             margin-bottom: 30px;
         }
 
@@ -75,26 +79,28 @@
             font-size: 1rem;
             cursor: pointer;
             text-decoration: none;
-            transition: background-color 0.3s;
+            transition: background-color 0.3s, transform 0.3s;
         }
 
         .hero .button:hover {
             background-color: #666;
+            transform: scale(1.1);
         }
 
         section {
             padding: 50px 30px;
             text-align: center;
+            animation: fadeIn 2s ease-in-out;
         }
 
         section h2 {
-            font-size: 2rem;
+            font-size: 2.5rem;
             margin-bottom: 20px;
             color: #ccc;
         }
 
         section p {
-            font-size: 1rem;
+            font-size: 1.2rem;
             color: #aaa;
             max-width: 800px;
             margin: 0 auto;
@@ -105,6 +111,7 @@
             color: #bbb;
             text-align: center;
             padding: 20px;
+            animation: fadeIn 2s ease-in-out;
         }
 
         footer p {
@@ -123,16 +130,36 @@
 
         @media (max-width: 768px) {
             .hero h2 {
-                font-size: 2rem;
+                font-size: 2.2rem;
             }
 
             .hero p {
-                font-size: 1rem;
+                font-size: 1.1rem;
             }
 
             nav {
                 flex-direction: column;
                 gap: 10px;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
             }
         }
     </style>
@@ -178,4 +205,3 @@
 </body>
 
 </html>
-
